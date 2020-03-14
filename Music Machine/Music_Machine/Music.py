@@ -22,7 +22,7 @@ time.sleep(2)
 while(True):  # infinite loop
     aaa = ser.readline()       # collecting string from Serial monitor
     aaa = aaa.decode()
-    aaa = aaa.rstrip()
+    aaa = aaa.rstrip()         # Stripping of all whitespaces and new line characters in the end of string
     a = aaa.find('+')          # Finding the added symbols
     b = aaa.find('-')
     s1 = aaa[0:a]
