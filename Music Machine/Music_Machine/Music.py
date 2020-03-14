@@ -12,6 +12,8 @@ import serial       # for port
 import time         # for time.sleep
 import pyautogui    # pressing keys
 from pygame import mixer  # playing music
+
+# ser is a filehandler
 ser = serial.Serial('COM6',9600)  # specify your port
 
 time.sleep(2)
